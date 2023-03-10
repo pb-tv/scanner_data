@@ -2,7 +2,6 @@
   "time": "2018-02-05T15:46:00.270Z",
   "fields": [],
   "symbols": [
-    { "f": [], "s": "ASCENDEX"  },
     { "f": [], "s": "BINANCE"  },
     { "f": [], "s": "BINANCEUS"  },
     { "f": [], "s": "BINGX"  },
@@ -14,10 +13,10 @@
     { "f": [], "s": "BITMEX&type=crypto"  },
     { "f": [], "s": "BITMEX&typespecs=crypto"  },
     { "f": [], "s": "BITPANDAPRO"  },
+    { "f": [], "s": "BITRUE"  },
     { "f": [], "s": "BITSO"  },
     { "f": [], "s": "BITSTAMP"  },
     { "f": [], "s": "BITTREX"  },
-    { "f": [], "s": "BTCYOU"  },
     { "f": [], "s": "BTSE"  },
     { "f": [], "s": "BYBIT"  },
     { "f": [], "s": "CEXIO"  },
@@ -29,7 +28,6 @@
     { "f": [], "s": "DERIBIT&typespecs=crypto"  },
     { "f": [], "s": "DYDX"  },
     { "f": [], "s": "EXMO"  },
-    { "f": [], "s": "FTX"  },
     { "f": [], "s": "GATEIO"  },
     { "f": [], "s": "GEMINI"  },
     { "f": [], "s": "HITBTC"  },
@@ -38,12 +36,12 @@
     { "f": [], "s": "KORBIT"  },
     { "f": [], "s": "KRAKEN"  },
     { "f": [], "s": "KUCOIN"  },
-    { "f": [], "s": "MAIAR"  },
     { "f": [], "s": "MERCADO"  },
     { "f": [], "s": "MEXC&group=mexc_spot"  },
     { "f": [], "s": "MTGOX"  },
     { "f": [], "s": "OKCOIN"  },
     { "f": [], "s": "OKX"  },
+    { "f": [], "s": "OSMOSIS"  },
     { "f": [], "s": "PANCAKESWAP"  },
     { "f": [], "s": "PANGOLIN"  },
     { "f": [], "s": "PHEMEX"  },
@@ -62,6 +60,6 @@
     { "f": [], "s": "UPBIT"  },
     { "f": [], "s": "WHITEBIT"  },
     { "f": [], "s": "WOONETWORK&group=woo_spots"  },
-    { "f": [], "s": "CRYPTO"  }
+    { "f": [], "s": "XEXCHANGE"  }
   ]
 }

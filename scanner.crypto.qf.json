@@ -49,7 +49,7 @@
   },
   {
     "name": "total_value_traded",
-    "type": "fundamental_price"
+    "type": "number"
   },
   {
     "name": "crypto_code",
@@ -76,8 +76,9 @@
     "type": "number"
   },
   {
-    "name": "daily-bar",
-    "type": "map"
+    "name": "update-time",
+    "type": "number",
+    "extract_from": "daily-bar" 
   },
   {
     "name": "circulating_supply",
@@ -93,7 +94,7 @@
   },
   {
     "name": "tvl",
-    "type": "fundamental_price"
+    "type": "number"
   },
   {
     "name": "addresses_total",
@@ -113,7 +114,7 @@
   },
   {
     "name": "avg_balance",
-    "type": "fundamental_price"
+    "type": "number"
   },
   {
     "name": "txs_count",
@@ -125,7 +126,7 @@
   },
   {
     "name": "txs_volume_usd",
-    "type": "fundamental_price"
+    "type": "number"
   },
   {
     "name": "large_tx_count",
@@ -133,7 +134,7 @@
   },
   {
     "name": "large_tx_volume_usd",
-    "type": "fundamental_price"
+    "type": "number"
   },
   {
     "name": "volume-type",
@@ -144,11 +145,19 @@
     "type": "set"
   },
   {
-    "name": "market_cap",
-    "type": "fundamental_price"
+    "name": "crypto_blockchain_ecosystems",
+    "type": "set"
   },
   {
-    "name": "market_cap_calc",
+    "name": "crypto_consensus_algorithms",
+    "type": "set"
+  },
+  {
+    "name": "crypto_common_categories",
+    "type": "set"
+  },
+  {
+    "name": "market_cap",
     "type": "fundamental_price"
   },
   {
@@ -210,5 +219,18 @@
   {
     "name": "losses_addresses_percentage",
     "type": "percent"
+  },
+  {
+    "name": "24h_vol_cmc",
+    "type": "fundamental_price"
+  },
+  {
+    "name": "24h_vol_change_cmc",
+    "type": "number"
+  },
+  {
+    "name": "centralization",
+    "type": "text",
+    "extract_from": "exchange-info" 
   }
 ]
