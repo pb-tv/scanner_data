@@ -1,0 +1,6 @@
+---
+presets:
+- name: test
+  filter:
+  - left: issue_status
+    operation: nempty
